@@ -34,3 +34,15 @@ let another;
 
 console.log(something, another);
 // 'null undefined' 로 표시됨
+
+/*=======================================================================================*/
+/* [2.5] Arrays */
+
+const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
+
+console.log(daysOfWeek[4]);
+// 0부터 세서 fri 출력
+
+daysOfWeek.push("sun");
+// array 뒤에 값 추가
+console.log(daysOfWeek);
