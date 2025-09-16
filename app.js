@@ -1,3 +1,5 @@
+/* [2.2 ~ 2.3] Variables, const and let */
+
 const a = 5;
 const b = 2;
 let myName = "peach";
@@ -17,3 +19,18 @@ myName = "peachily";
 
 console.log("your new name is " + myName);
 /* 여기서는 peachily */
+
+/*=======================================================================================*/
+/* [2.4] Booleans */
+
+const amIFat = true;
+/* Boolean 데이터타입은 true와 false 두 가지 값(Boolean literal)을 가짐 */
+console.log(amIFat);
+
+const something = null;
+/* null 타입: 값이 없다는 것을 명시적으로 알려주기 위한 의도적인 '값'*/
+let anohter;
+/* undefined 타입: 그냥 '값이 없는 상태' */
+
+console.log(something, another);
+/* 'null undefined' 로 표시됨 */
