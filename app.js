@@ -1,10 +1,19 @@
 const a = 5;
 const b = 2;
-
-const myName = "peachily";
+let myName = "peach";
+/* 기본적으로 const(constant: 상수)를 쓰고, variable을 업데이트할 일이 있을 경우에는 let
+ -> let을 보면 이후에 업데이트 할 것을 미리 눈치챌 수 있음 */
 
 console.log(a + b);
 console.log(a * b);
 console.log(a / b);
 
 console.log("hello " + myName);
+/* JS 는 코드를 순서대로 읽기 때문에 여기서는 peach */
+
+myName = "peachily";
+/* let이나 const는 생성할 때 필요한 부분. 여기서는 만들어둔 variable의 값을 업데이트만 하면 됨
+-> const로 만들었을 경우 이렇게 업데이트를 하면 에러가 남 */
+
+console.log("your new name is " + myName);
+/* 여기서는 peachily */
